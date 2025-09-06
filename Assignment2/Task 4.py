@@ -1,5 +1,5 @@
 #inputs
-print("Enter three whole numbers (No decimals)") #print(f"Enter three whole numbers (No decimals))
+print("Enter three whole numbers (No decimals)") #print(f"Enter three whole numbers (No decimals)")
 number1 = int(input("Enter whole number 1:"))
 number2 = int(input("Enter whole number 2:"))
 number3 = int(input("Enter whole number 3:"))
