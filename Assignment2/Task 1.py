@@ -1,0 +1,7 @@
+print ("Hello! May I ask what is your name?")
+name = input("Enter your name:")
+print("Welcome to our Python class" + name + "!")
+print()
+print("Hello, May I ask what is your name?")
+name = input("Enter your name:")
+print(f"Welcome to our Python Class {name}!")
