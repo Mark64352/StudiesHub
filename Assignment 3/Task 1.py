@@ -1,4 +1,4 @@
-print  (f"Nice catch! Please let us know the size of the Zander you caught.")
+print(f"Nice catch! Please let us know the size of the Zander you caught.")
 print()
 zander = float(input(f"Enter the length of the Zander in centimeters: "))
 print()
