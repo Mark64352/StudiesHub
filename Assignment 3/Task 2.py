@@ -5,24 +5,24 @@ print(
 
 print()
 
-cabin_class = input("What is your cabin class?: ").lower()
+cabin_class = input("What is your cabin class?: ").strip().upper()
 
-if cabin_class == "LUX".lower():
+if cabin_class == "LUX":
     print(
         f"Welcome aboard to Lux cabin!\n"
         f"You will have an upper-deck cabin with a balcony."
     )
-elif cabin_class == "A".lower():
+elif cabin_class == "A":
     print(
         f"Welcome aboard to A- cabin!\n" 
         f"Your cabin will be above the car deck with a window."
     )
-elif cabin_class == "B".lower():
+elif cabin_class == "B":
     print(
         f"Welcome aboard to B- cabin!\n"
         f"Your cabin will be above the car deck without a window."
     )
-elif cabin_class == "C".lower():
+elif cabin_class == "C":
     print(
         f"Welcome aboard to C- cabin!\n"
         f"Your cabin will be below the car deck without a window."
