@@ -8,12 +8,11 @@ while True:
     while True:
         guess = (input("Guess a number between 1 and 10: "))
         print()
-        if not guess.isdigit():
+        try:
+            guess = int(guess)
+        except ValueError:
             print("Sorry, that's not a number. Please try again!\n")
             continue
-
-        guess = int(guess)
-
         if guess == secret_number:
             print("You guessed it right!\n")
             break
@@ -22,11 +21,17 @@ while True:
         else:
             print("Too high!\n")
 
-    play_again = input("Would you like to play again? (yes/no): ").strip().lower()
-    print()
-    if play_again != "yes":
-        print("Thank you for playing!")
+    while True:
+        play_again = input("Would you like to play again? (yes/no): ").strip().lower()
+        print()
+        if play_again in ("yes", "no"): #check if the input matches the systems answer
+            break
+        print("Invalid choice. Please type 'yes' or 'no'.\n")
+    if play_again == "no":
+        print("Goodbye!")
         break
+
+
 
 
 
