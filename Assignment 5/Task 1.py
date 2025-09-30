@@ -3,7 +3,7 @@ import random
 print("Welcome to Dice Roller Game!")
 print()
 
-for _ in range(1000):   # big number so it keeps looping until break
+for _ in range(1000):
     num_dice = int(input("How many dice would you like to roll? "))
     print()
     total = 0
