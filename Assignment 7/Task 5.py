@@ -16,6 +16,7 @@ pizza_2 = float(input("Pizza 2 price (€): "))
 v2 = pizza_value(diameter_2, pizza_2)
 print(f"Pizza 2 price per square meters: {v2:.2f} €/m².")
 print()
+
 if v1 < v2:
     print("Pizza 1 is cheaper per square meter.")
 elif v2 < v1:
