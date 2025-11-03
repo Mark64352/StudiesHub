@@ -14,9 +14,7 @@ class Car:
         elif self.current_speed < 0:
             self.current_speed = 0
 
-
 carnew = Car("ABC-123", 142, 0, 0)
-
 
 carnew.accelerate(30)
 carnew.accelerate(70)
